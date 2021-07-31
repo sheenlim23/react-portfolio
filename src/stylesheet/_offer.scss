@@ -1,0 +1,50 @@
+.offer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  margin-bottom: 9rem;
+  .offer {
+    background-color: var(--card-color);
+    padding: 3rem;
+    width: 50%;
+    border-radius: 15px;
+    h2 {
+      color: white;
+      font-size: var(--h2-font-size);
+      margin-bottom: var(--mb-0-75);
+    }
+    p {
+      font-size: var(--normal-font-size);
+      color: white;
+      margin-bottom: var(--mb-2);
+    }
+    .offer-btn {
+      background-color: white;
+      color: var(--first-color);
+      font-weight: var(--font-medium);
+      text-decoration: none;
+    }
+  }
+}
+@media only screen and(max-width:768px) and (min-width: 426px) {
+  .offer-container {
+    .offer {
+      width: 90%;
+    }
+  }
+}
+@media only screen and(max-width:425px) and (min-width: 375px) {
+  .offer-container {
+    .offer {
+      width: 90%;
+    }
+  }
+}
+@media only screen and(max-width:320px) {
+  .offer-container {
+    .offer {
+      width: 100%;
+    }
+  }
+}

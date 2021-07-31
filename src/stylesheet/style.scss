@@ -1,0 +1,82 @@
+@import "./extras";
+//------------------REUSABLE CLASSES-------------------------------
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background: var(--container-color);
+  width: 100%;
+  margin: 0;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: var(--container-color);
+  position: relative;
+}
+.wrapper {
+  width: 100%;
+  height: auto;
+  padding: 1rem 3rem;
+  position: relative;
+  top: 10vh;
+  position: absolute;
+  background-color: var(--container-color);
+}
+
+li {
+  list-style-type: none;
+}
+.btn {
+  padding: 0.8rem 1.5rem;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+section {
+  min-height: 90vh;
+  position: relative;
+  display: block;
+}
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+  section {
+    height: 90vh;
+  }
+}
+input,
+textarea {
+  padding: 1rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: rgb(219, 219, 219);
+  margin-bottom: var(--mb-0-75);
+  color: var(--text-color);
+  font-size: var(--normal-font-size);
+}
+textarea {
+  font-size: 1rem;
+}
+//------------------SPECIFIC STYLES-----------------------------------
+
+@import "./navbar";
+@import "./hero";
+@import "./about";
+@import "./skills";
+@import "./skills";
+@import "./service";
+@import "./portfolio";
+@import "./offer";
+@import "./testimonials";
+@import "./contact";
+@import "./footer";
