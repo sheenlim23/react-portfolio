@@ -79,6 +79,29 @@
     }
   }
 }
+@media only screen and (max-width: 664px) and (min-width: 426px) {
+  .contact {
+    .title {
+      margin-bottom: var(--mb-3);
+    }
+    .contact-container {
+      grid-template-columns: 1fr;
+      .contact-details {
+        padding: 1rem 1rem;
+      }
+      .message-me {
+        margin: 2rem 1rem;
+        .input-name {
+          grid-template-columns: 1fr;
+          grid-gap: 0;
+        }
+        .message-btn {
+          width: 60% !important;
+        }
+      }
+    }
+  }
+}
 @media only screen and (max-width: 425px) and (min-width: 375px) {
   .contact {
     .title {
@@ -97,6 +120,29 @@
         }
         .message-btn {
           width: 60%;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 374px) and (min-width: 321px) {
+  .contact {
+    .title {
+      margin-bottom: var(--mb-3);
+    }
+    .contact-container {
+      grid-template-columns: 1fr;
+      .contact-details {
+        padding: 1rem 1rem;
+      }
+      .message-me {
+        margin: 2rem 1rem;
+        .input-name {
+          grid-template-columns: 1fr;
+          grid-gap: 0;
+        }
+        .message-btn {
+          width: 60% !important;
         }
       }
     }

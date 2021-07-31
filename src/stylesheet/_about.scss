@@ -315,6 +315,53 @@
     }
   }
 }
+@media only screen and(max-width:374px) and(min-width:321px) {
+  .about {
+    height: auto;
+    padding: 0rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 0%;
+    position: relative;
+    .about-image {
+      position: relative;
+      img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%, 0%);
+        border-radius: 15px;
+        display: block;
+      }
+    }
+    .about-text {
+      margin-top: 10rem;
+      width: 100%;
+      height: auto;
+      display: block;
+      padding: 0rem;
+      transform: translateY(-100px);
+      .about-details-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+        color: var(--text-color);
+        margin-bottom: var(--mb-2);
+      }
+      .about-btn {
+        background-color: var(--first-color);
+        color: white;
+        text-decoration: none;
+        width: 65%;
+        .icon {
+          margin-left: 0.5rem;
+        }
+      }
+    }
+  }
+}
 @media only screen and(max-width:320px) {
   .about {
     height: auto;

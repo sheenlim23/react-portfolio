@@ -16,7 +16,7 @@ const Portfolio = () => {
         <small>Client Testimonials</small>
       </div>
       <Swiper
-        spaceBetween={100}
+        spaceBetween={50}
         slidesPerView={1}
         // pagination={{ clickable: true }}
         onSlideChange={() => console.log("slide change")}

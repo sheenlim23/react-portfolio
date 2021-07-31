@@ -61,7 +61,8 @@
 }
 @media only screen and (max-width: 716px) and (min-width: 426px) {
   .service-container {
-    padding: 1rem;
+    padding: 0rem;
+    margin-bottom: 4rem;
     .service-card {
       grid-template-columns: 1fr;
       padding: 0 2rem;
@@ -70,6 +71,17 @@
   }
 }
 @media only screen and (max-width: 425px) and (min-width: 375px) {
+  .service-container {
+    padding: 0rem;
+    margin-bottom: 10rem;
+    .service-card {
+      grid-template-columns: 1fr;
+      padding: 0rem;
+      height: auto;
+    }
+  }
+}
+@media only screen and (max-width: 374px) and (min-width: 321px) {
   .service-container {
     padding: 0rem;
     margin-bottom: 10rem;

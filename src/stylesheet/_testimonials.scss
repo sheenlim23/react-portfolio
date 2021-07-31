@@ -78,6 +78,20 @@
     }
   }
 }
+@media only screen and (max-width: 664px) and (min-width: 426px) {
+  .testimonials {
+    height: auto;
+    .swiper-container {
+      padding: 0;
+      .testimonial-person {
+        box-shadow: none;
+      }
+      .swiper-slide {
+        width: 100% !important;
+      }
+    }
+  }
+}
 @media only screen and (max-width: 425px) and (min-width: 375px) {
   .testimonials {
     height: auto;
@@ -85,6 +99,18 @@
       padding: 0;
       .swiper-slide {
         width: 100% !important;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 374px) and (min-width: 321px) {
+  .testimonials {
+    height: auto;
+    .swiper-container {
+      padding: 0;
+      .swiper-slide {
+        width: 100% !important;
+        padding: 2rem 0rem;
       }
     }
   }

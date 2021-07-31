@@ -57,7 +57,7 @@
     }
   }
 }
-@media only screen and (max-width: 768px) and (min-width: 426px) {
+@media only screen and (max-width: 768px) and (min-width: 665px) {
   .portfolio {
     height: 84vh;
     margin-bottom: 0rem;
@@ -69,7 +69,83 @@
     }
   }
 }
+@media only screen and (max-width: 664px) and (min-width: 426px) {
+  .portfolio {
+    height: auto !important;
+    margin: -1rem -1rem 3rem -1rem;
+    padding: 0;
+    margin-bottom: 8rem;
+    .title {
+      margin-bottom: var(--mb-1-5);
+    }
+    .swiper-container {
+      height: auto;
+      .swiper-button-next {
+        position: absolute !important;
+        right: 0;
+        &:after {
+          font-size: 1rem !important;
+        }
+      }
+      .swiper-button-prev {
+        position: absolute !important;
+        left: 0;
+        &:after {
+          font-size: 1rem !important;
+        }
+      }
+      .swiper-slide {
+        display: block;
+        padding: 0;
+        .swiper-image {
+          margin-bottom: var(--mb-1);
+        }
+        .swiper-text {
+          padding: 0.2rem;
+        }
+      }
+    }
+  }
+}
 @media only screen and (max-width: 425px) and (min-width: 375px) {
+  .portfolio {
+    height: auto !important;
+    margin: -1rem -1rem 3rem -1rem;
+    padding: 0;
+    margin-bottom: 8rem;
+    .title {
+      margin-bottom: var(--mb-1-5);
+    }
+    .swiper-container {
+      height: auto;
+      .swiper-button-next {
+        position: absolute !important;
+        right: 0;
+        &:after {
+          font-size: 1rem !important;
+        }
+      }
+      .swiper-button-prev {
+        position: absolute !important;
+        left: 0;
+        &:after {
+          font-size: 1rem !important;
+        }
+      }
+      .swiper-slide {
+        display: block;
+        padding: 0;
+        .swiper-image {
+          margin-bottom: var(--mb-1);
+        }
+        .swiper-text {
+          padding: 0.2rem;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 374px) and (min-width: 321px) {
   .portfolio {
     height: auto !important;
     margin: -1rem -1rem 3rem -1rem;

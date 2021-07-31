@@ -41,6 +41,13 @@
     }
   }
 }
+@media only screen and(max-width:374px) and (min-width: 321px) {
+  .offer-container {
+    .offer {
+      width: 100%;
+    }
+  }
+}
 @media only screen and(max-width:320px) {
   .offer-container {
     .offer {
