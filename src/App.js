@@ -35,44 +35,44 @@ function App() {
 
   return (
     <Router>
-      <div className="bg">
-      <div className={`container ${theme}`} id="container">
-      <div className="nav-wrapper">
-            <nav>
-                <h2>WS</h2>
-                <div className="nav-toggle">
-                    <button  type="button" data-toggle="collapse" data-target="#nav-links" aria-controls="nav-links" aria-expanded={!isNavCollapsed ? true: false} aria-label="Toggle navigation" onClick={handleCollapse}>
-                       <FontAwesomeIcon icon="bars" className="icon"/>
-                    </button> 
-                </div>
-                <div className={`${!isNavCollapsed ? 'collapse': ''} nav-links`}>
-                    <AnchorLink offset="200" href="#home" className="link"><li>Home</li></AnchorLink>
-                    <AnchorLink offset="130" href="#about" className="link"><li>About</li></AnchorLink>
-                    <AnchorLink offset="120" href="#skills" className="link"><li>Skills</li></AnchorLink>
-                    <AnchorLink  offset="120" href="#services" className="link"><li>Services</li></AnchorLink>
-                    <AnchorLink  offset="120" href="#portfolio" className="link"><li>Portfolio</li></AnchorLink>
-                    <AnchorLink  offset="120" href="#contact" className="link"><li>Contact</li></AnchorLink>
-                    <button className="link"  data-target="#container" aria-controls="container" onClick={handleTheme}><li><FontAwesomeIcon icon={icon}/></li></button>
-                </div>
-            </nav>
+      <div>
+        <div className={`container ${theme}`} id="container">
+          <div className="nav-wrapper">
+              <nav>
+                  <h2>WS</h2>
+                  <div className="nav-toggle">
+                      <button  type="button" data-toggle="collapse" data-target="#nav-links" aria-controls="nav-links" aria-expanded={!isNavCollapsed ? true: false} aria-label="Toggle navigation" onClick={handleCollapse}>
+                        <FontAwesomeIcon icon="bars" className="icon"/>
+                      </button> 
+                  </div>
+                  <div className={`${!isNavCollapsed ? 'collapse': ''} nav-links`}>
+                      <AnchorLink offset="200" href="#home" className="link"><li>Home</li></AnchorLink>
+                      <AnchorLink offset="130" href="#about" className="link"><li>About</li></AnchorLink>
+                      <AnchorLink offset="120" href="#skills" className="link"><li>Skills</li></AnchorLink>
+                      <AnchorLink  offset="120" href="#services" className="link"><li>Services</li></AnchorLink>
+                      <AnchorLink  offset="120" href="#portfolio" className="link"><li>Portfolio</li></AnchorLink>
+                      <AnchorLink  offset="120" href="#contact" className="link"><li>Contact</li></AnchorLink>
+                      <button className="link"  data-target="#container" aria-controls="container" onClick={handleTheme}><li><FontAwesomeIcon icon={icon}/></li></button>
+                  </div>
+              </nav>
+            </div>
+          <div className="wrapper">
+            {/* <Navbar theme={theme}/> */}
+            <Hero/>
+            <About />
+            <Skills />
+            <Service/>
+            <Portfolio/>
+            <Offer/>
+            <Testimonials/>
+            <Contact/>
+            <Footer/>
+            {/* <div className="main-wrapper">
+                <Route path='/sample' component={ Sample }/>
+              </div>  */}
           </div>
-        <div className="wrapper">
-          {/* <Navbar theme={theme}/> */}
-          <Hero to=""/>
-          <About />
-          <Skills />
-          <Service/>
-          <Portfolio/>
-          <Offer/>
-          <Testimonials/>
-          <Contact/>
-          <Footer/>
-          {/* <div className="main-wrapper">
-              <Route path='/sample' component={ Sample }/>
-            </div>  */}
         </div>
-      </div>
-      </div>
+        </div>
     </Router>
 
   );

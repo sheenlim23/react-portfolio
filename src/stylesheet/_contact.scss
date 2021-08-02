@@ -71,10 +71,10 @@
     .contact-container {
       grid-template-columns: 1fr;
       .contact-details {
-        padding: 1rem 5rem;
+        padding: 2rem;
       }
       .message-me {
-        margin: 2rem 5rem;
+        margin: 2rem;
       }
     }
   }
@@ -133,10 +133,10 @@
     .contact-container {
       grid-template-columns: 1fr;
       .contact-details {
-        padding: 1rem 1rem;
+        padding: 0rem;
       }
       .message-me {
-        margin: 2rem 1rem;
+        margin: 2rem 0rem;
         .input-name {
           grid-template-columns: 1fr;
           grid-gap: 0;

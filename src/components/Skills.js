@@ -1,7 +1,8 @@
 import React from 'react';
 const Skills = () => {
     return (
-        <section className="skills" id="skills">
+        <section>
+            <div className="skills" id="skills">
             <div className="title">
                 <h1>Skills</h1>
                 <small>My technical skills</small>
@@ -36,7 +37,7 @@ const Skills = () => {
                         </div>
                         <div className="skill-bar-text">
                             <span className="react skill-title">React</span>
-                            <p>40%</p>
+                            <p>60%</p>
                         </div>
                     </div>
                 </div>
@@ -73,33 +74,43 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="skills-grid-center">
-                <div className="skills-details-header">
-                    <div className="icon">
-                        
+                <div className="others">
+                    <div className="skills-details-header">
+                        <div className="icon">
+                            
+                        </div>
+                        <div className="text">
+                            <h2>Others</h2>
+                            <small>3yrs experience</small>
+                        </div>
                     </div>
-                    <div className="text">
-                        <h2>Others</h2>
-                        <small>3yrs experience</small>
+                    <div className="skill-bar">
+                        <div className="skill-bar-text">
+                            <span className="cs skill-title">C#</span>
+                            <p>60%</p>
+                        </div>
+                        <div className="skill-bar-text">
+                            <span className="jav skill-title">Java</span>
+                            <p>60%</p>
+                        </div>
+                        <div className="skill-bar-text">
+                            <span className="uxp skill-title">UI/UX Prototyping</span>
+                            <p>80%</p>
+                        </div>
+                        <div className="skill-bar-text">
+                            <span className="ps skill-title">Photoshop</span>
+                            <p>50%</p>
+                        </div>
+                        <div className="skill-bar-text">
+                            <span className="ccna skill-title">CCNA</span>
+                            <p>50%</p>
+                        </div>
                     </div>
                 </div>
-                <div className="skill-bar">
-                    <div className="skill-bar-text">
-                        <span className="ui skill-title">UI/UX</span>
-                        <p>70%</p>
-                    </div>
-                    <div className="skill-bar-text">
-                        <span className="csharp skill-title">C#</span>
-                        <p>75%</p>
-                    </div>
-                    <div className="skill-bar-text">
-                        <span className="java skill-title">Java</span>
-                        <p>80%</p>
-                    </div>
-                </div>
+ 
             </div>
-        </section>
+       </div>
+    </section>
     );
 }
  
