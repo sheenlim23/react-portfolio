@@ -17,7 +17,7 @@ const Hero = () => {
                 </a>
                 </div>
                 <div className="hero-text">
-                    <h1>Hi, I'am William</h1>
+                    <h1>Hi, I am William</h1>
                     <small>Web Developer</small>
                     <p>My goal is to create Usable and Quality web designs for you to have the best web experience</p>
                     <Link className="btn contact-me">
