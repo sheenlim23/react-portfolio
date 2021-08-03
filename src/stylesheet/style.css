@@ -2217,5 +2217,8 @@ textarea {
             align-items: center;
     margin-bottom: var(--mb-3);
   }
+  .footer .social-media-links a .icon {
+    font-size: 3rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
