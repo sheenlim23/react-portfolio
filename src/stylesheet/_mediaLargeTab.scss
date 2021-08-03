@@ -117,6 +117,10 @@
         grid-template-columns: 100%;
         .image {
           margin-bottom: var(--mb-1);
+          img {
+            height: 150px !important;
+            width: auto;
+          }
         }
         .testimonial-p {
           .div {

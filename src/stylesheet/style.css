@@ -1882,16 +1882,19 @@ textarea {
   .hero {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    height: auto;
+    height: 100%;
+    overflow: hidden;
   }
   .hero .hero-icons {
     display: none;
+    overflow: hidden;
   }
   .hero .hero-text {
     grid-row-start: 2/3;
     grid-column-start: 2/3;
     padding: 2rem;
     position: relative;
+    overflow: hidden;
   }
   .hero .hero-text p {
     width: 100%;
@@ -1907,8 +1910,10 @@ textarea {
         grid-column-start: 1;
     grid-column-end: 2;
     padding: 2rem;
+    overflow: hidden;
   }
   .hero .hero-image .hero-image-container {
+    overflow: hidden;
     width: 200px;
     height: 200px;
   }
@@ -2163,6 +2168,10 @@ textarea {
   }
   .testimonials .swiper-container .testimonial-person .image {
     margin-bottom: var(--mb-1);
+  }
+  .testimonials .swiper-container .testimonial-person .image img {
+    height: 150px !important;
+    width: auto;
   }
   .testimonials .swiper-container .testimonial-person .testimonial-p .div small {
     margin-bottom: var(--mb-2);

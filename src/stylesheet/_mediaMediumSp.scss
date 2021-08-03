@@ -5,15 +5,18 @@
   }
   .hero {
     grid-template-columns: 1fr;
-    height: auto;
+    height: 100%;
+    overflow: hidden;
     .hero-icons {
       display: none;
+      overflow: hidden;
     }
     .hero-text {
       grid-row-start: 2/3;
       grid-column-start: 2/3;
       padding: 2rem;
       position: relative;
+      overflow: hidden;
       p {
         width: 100%;
       }
@@ -27,7 +30,9 @@
       grid-column-start: 1;
       grid-column-end: 2;
       padding: 2rem;
+      overflow: hidden;
       .hero-image-container {
+        overflow: hidden;
         width: 200px;
         height: 200px;
       }
