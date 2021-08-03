@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 const Hero = () => {
     return (
         <section>
@@ -20,10 +21,10 @@ const Hero = () => {
                     <h1>Hi, I am William</h1>
                     <small>Web Developer</small>
                     <p>My goal is to create Usable and Quality web designs for you to have the best web experience</p>
-                    <Link className="btn contact-me">
+                    <AnchorLink href="#contact" className="btn contact-me">
                         Contact me 
                         <FontAwesomeIcon icon="paper-plane" className="icon"/>
-                        </Link>
+                        </AnchorLink>
                 </div>
                 <div className="hero-image">
                     <div className="hero-image-container">

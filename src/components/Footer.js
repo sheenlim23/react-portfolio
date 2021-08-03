@@ -15,13 +15,13 @@ const Footer = () => {
                     <AnchorLink offset="120" href="#contact" className="btn link">Contact me</AnchorLink>
                 </div>
                 <div className="social-media-links">
-                    <a  href="https://www.linkedin.com/in/william-sheen-lim-67b74b12a/" rel="noreferer" target="_blank">
+                    <a  href="https://www.linkedin.com/in/william-sheen-lim-67b74b12a/"  rel="noreferer noopener" target="_blank">
                         <FontAwesomeIcon icon={['fab','linkedin']} className="icon"/>
                     </a>
-                    <a href="https://web.facebook.com/profile.php?id=100008560846641" rel="noreferer" target="_blank">
+                    <a href="https://web.facebook.com/profile.php?id=100008560846641"  rel="noreferer noopener" target="_blank">
                             <FontAwesomeIcon icon={['fab','facebook']} className="icon"/>
                     </a>
-                    <a href="https://github.com/sheenlim23" rel="noreferer" target="_blank">
+                    <a href="https://github.com/sheenlim23" rel="noreferer noopener" target="_blank">
                             <FontAwesomeIcon icon={['fab','github']} className="icon"/>
                     </a>
                 </div>

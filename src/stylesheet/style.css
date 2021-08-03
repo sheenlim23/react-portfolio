@@ -1293,6 +1293,10 @@ textarea {
   color: var(--text-color);
 }
 
+.portfolio .swiper-container .swiper-pagination {
+  bottom: 0 !important;
+}
+
 .portfolio .swiper-container .swiper-slide {
   display: -ms-grid;
   display: grid;

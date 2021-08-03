@@ -13,6 +13,9 @@
     }
   }
   .swiper-container {
+    .swiper-pagination {
+      bottom: 0 !important;
+    }
     .swiper-slide {
       display: grid;
       grid-template-columns: repeat(2, 50%);

@@ -54,7 +54,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="message-me">
-                    <form id="form" onSubmit={sendEmail}>
+                    <form id="form" encType="multipart/form-data" onSubmit={sendEmail}>
                         <div className="input-name">
                             <input type="text"  name="name" id="" placeholder="Name" />
                         </div>
