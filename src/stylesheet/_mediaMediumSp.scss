@@ -7,7 +7,7 @@
     grid-template-columns: 1fr;
     height: auto;
     .hero-icons {
-      margin-top: -45%;
+      display: none;
     }
     .hero-text {
       grid-row-start: 2/3;
@@ -53,7 +53,7 @@
         display: none;
       }
       .about-btn {
-        width: 90%;
+        width: 80%;
       }
     }
   }
@@ -116,6 +116,10 @@
         grid-template-columns: 100%;
         .image {
           margin-bottom: var(--mb-1);
+          img {
+            height: 130px !important;
+            width: auto;
+          }
         }
         .testimonial-p {
           .div {

@@ -13,8 +13,9 @@
     transform: translateY(-50%);
     padding-left: 0.3rem;
     a {
-      font-size: Max(1.8rem, 4%);
+      font-size: Max(1.3rem, 4%);
       color: var(--first-color);
+      margin-bottom: 1.5rem;
     }
   }
   .hero-text {
@@ -58,7 +59,7 @@
     place-items: center;
     .hero-image-container {
       background-color: var(--first-color);
-      border-radius: 46% 54% 45% 55% / 25% 26% 74% 75%;
+      border-radius: 51% 49% 50% 50% / 23% 23% 77% 77%;
       overflow: hidden;
       width: Min(350px, 80%);
       height: Min(350px, 70%);

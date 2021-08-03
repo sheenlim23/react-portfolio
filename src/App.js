@@ -46,12 +46,12 @@ function App() {
                       </button> 
                   </div>
                   <div className={`${!isNavCollapsed ? 'collapse': ''} nav-links`}>
-                      <AnchorLink offset="200" href="#home" className="link"><li>Home</li></AnchorLink>
-                      <AnchorLink offset="130" href="#about" className="link"><li>About</li></AnchorLink>
-                      <AnchorLink offset="120" href="#skills" className="link"><li>Skills</li></AnchorLink>
-                      <AnchorLink  offset="120" href="#services" className="link"><li>Services</li></AnchorLink>
-                      <AnchorLink  offset="120" href="#portfolio" className="link"><li>Portfolio</li></AnchorLink>
-                      <AnchorLink  offset="120" href="#contact" className="link"><li>Contact</li></AnchorLink>
+                      <AnchorLink offset="200" href="#home" className="link" onClick={handleCollapse} ><li>Home</li></AnchorLink>
+                      <AnchorLink offset="130" href="#about" className="link" onClick={handleCollapse}><li>About</li></AnchorLink>
+                      <AnchorLink offset="120" href="#skills" className="link" onClick={handleCollapse}><li>Skills</li></AnchorLink>
+                      <AnchorLink  offset="120" href="#services" className="link" onClick={handleCollapse}><li>Services</li></AnchorLink>
+                      <AnchorLink  offset="120" href="#portfolio" className="link" onClick={handleCollapse}><li>Portfolio</li></AnchorLink>
+                      <AnchorLink  offset="120" href="#contact" className="link" onClick={handleCollapse}><li>Contact</li></AnchorLink>
                       <button className="link"  data-target="#container" aria-controls="container" onClick={handleTheme}><li><FontAwesomeIcon icon={icon}/></li></button>
                   </div>
               </nav>

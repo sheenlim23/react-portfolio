@@ -7,13 +7,13 @@ const Hero = () => {
             <div className="hero" id="home">
                 <div className="hero-icons">
                     <a  href="https://www.linkedin.com/in/william-sheen-lim-67b74b12a/" target="_blank">
-                        <FontAwesomeIcon icon={['fab','linkedin']} className="icon"/>
+                        <FontAwesomeIcon icon={['fab','linkedin-in']} className="icon"/>
                     </a>
                 <a href="https://web.facebook.com/profile.php?id=100008560846641" target="_blank">
-                        <FontAwesomeIcon icon={['fab','facebook']} className="icon"/>
+                        <FontAwesomeIcon icon={['fab','facebook-f']} className="icon"/>
                 </a>
                 <a href="https://github.com/sheenlim23" target="_blank">
-                        <FontAwesomeIcon icon={['fab','github']} className="icon"/>
+                        <FontAwesomeIcon icon={['fab','github-alt']} className="icon"/>
                 </a>
                 </div>
                 <div className="hero-text">
