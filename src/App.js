@@ -1,10 +1,8 @@
-import logo from './logo.svg';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { BrowserRouter as Router, Switch, Route,Link, HashRouter } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './assets/FontAwesomeIcons';
 // import Navbar from './components/Navbar';
-import Sample from './components/Sample';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
