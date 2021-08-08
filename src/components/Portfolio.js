@@ -36,6 +36,18 @@ const Portfolio = () => {
               </div>
             </div>
           </SwiperSlide>
+           <SwiperSlide className="swiper-slide">
+            <div className="swiper-image">
+              <img src="images/loopstudios.png" alt="" />
+            </div>
+            <div className="swiper-text">
+              <div>
+                <h2>Loopstudios</h2>
+                <p>Loopstudios is powered by React Js, Loopstudios website taken from frontendmentor website, which is a free front-end mentor. Loopstudios is built with React JS. React JS is a free and open front-end open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by facebook and a community of individual developers and companies.</p>
+                <a href="https://loopstudiosreact.netlify.app/" target="_blank" className="btn swiper-btn">Visit Live</a>
+              </div>
+            </div>
+          </SwiperSlide>
           <SwiperSlide className="swiper-slide">
             <div className="swiper-image">
               <img src="images/sunnyside.png" alt="" />
