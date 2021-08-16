@@ -26,6 +26,18 @@ const Portfolio = () => {
           className="swiper-container">
           <SwiperSlide className="swiper-slide">
             <div className="swiper-image">
+              <img src="images/facebook-clone.png" alt="" />
+            </div>
+            <div className="swiper-text">
+              <div>
+                <h2>Facebook Clone</h2>
+                <p>Facebook Clone is built with its original front-end library used by facebook which is Reactjs and powered by Firebase for its Back-end which is runned by Google. This site uses Google authentication for login.</p>
+                <a href="https://facebook-app-clone-ce1b9.web.app/" target="_blank" className="btn swiper-btn">Visit Live</a>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div className="swiper-image">
               <img src="images/posadmin.png" alt="" />
             </div>
             <div className="swiper-text">
