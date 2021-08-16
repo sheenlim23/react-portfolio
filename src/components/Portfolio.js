@@ -43,7 +43,7 @@ const Portfolio = () => {
             <div className="swiper-text">
               <div>
                 <h2>POS Admin</h2>
-                <p>POS Admin is a Web application intended for small store/business that wants to track their income. The POS Admin can track your daily, weekly, and yearly income and be able to store them in the database or print them for reports, or store data manually. </p>
+                <p>POS Admin is a Web application intended for small store/business that wants to track their income. The POS Admin can track your daily, weekly, and yearly income and be able to store them in the database or print them for reports, or store data manually. you can log in using the USERNAME: <b>sampleuser</b> and PASSWORD: <b>sampleuser</b>.</p>
                 <a href="http://posadmin.epizy.com/" target="_blank" className="btn swiper-btn">Visit Live</a>
               </div>
             </div>
