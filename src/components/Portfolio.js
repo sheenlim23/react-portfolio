@@ -48,6 +48,18 @@ const Portfolio = () => {
               </div>
             </div>
           </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div className="swiper-image">
+              <img src="images/tinder.PNG" alt="" />
+            </div>
+            <div className="swiper-text">
+              <div>
+                <h2>Tinder Clone</h2>
+                <p>Tinder Clone is build with MERN stack. MERN is one of several variations of the MEAN stack (MongoDB Express Angular Node), where the traditional Angular.js frontend framework is replaced with React.js. Other variants include MEVN (MongoDB, Express, Vue, Node), and really any frontend JavaScript framework can work.</p>
+                <a href="https://tinder-clone-43bfb.web.app/" target="_blank" className="btn swiper-btn">Visit Live</a>
+              </div>
+            </div>
+          </SwiperSlide>
            <SwiperSlide className="swiper-slide">
             <div className="swiper-image">
               <img src="images/loopstudios.png" alt="" />
