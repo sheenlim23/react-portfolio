@@ -1,0 +1,26 @@
+.offer-container {
+  display: grid;
+  place-items: center;
+  margin-bottom: 10rem;
+  .offer {
+    background-color: var(--first-color);
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    h2 {
+      font-size: var(--h2-font-size);
+      color: white;
+      margin-bottom: var(--mb-1);
+    }
+    p {
+      font-size: var(--normal-font-size);
+      color: white;
+      margin-bottom: var(--mb-1);
+    }
+    .offer-btn {
+      background-color: white;
+      text-decoration: none;
+      padding: 0.6rem 1rem;
+      border-radius: 10px;
+    }
+  }
+}

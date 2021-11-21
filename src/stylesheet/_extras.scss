@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+:root {
+  .light {
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    --hue-color: 250;
+    --first-color: hsl(var(--hue-color), 69%, 61%);
+    --first-color-second: hsl(var(--hue-color), 69%, 61%);
+    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+    --title-color: hsl(var(--hue-color), 8%, 15%);
+    --text-color: hsl(var(--hue-color), 8%, 45%);
+    --text-color-light: hsl(var(--hue-color), 8%, 65%);
+    --input-color: hsl(var(--hue-color), 70%, 96%);
+    --body-color: hsl(var(--hue-color), 60%, 99%);
+    --container-color: #fff;
+    --card: #fff;
+    --card-color: hsl(var(--hue-color), 69%, 61%);
+    --footer: hsl(var(--hue-color), 69%, 61%);
+    --testemonial: rgb(255, 255, 255);
+
+    --mb-0-25: 0.25rem;
+    --mb-0-5: 0.5rem;
+    --mb-0-75: 0.75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+  }
+  .dark {
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    --hue-color: 250;
+    --first-color: hsl(var(--hue-color), 69%, 61%);
+    --first-color-second: hsl(var(--hue-color), 69%, 61%);
+    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+    --title-color: white;
+    --text-color: rgb(167, 166, 166);
+    --text-color-light: hsl(var(--hue-color), 8%, 65%);
+    --input-color: hsl(var(--hue-color), 70%, 96%);
+    --body-color: hsl(var(--hue-color), 60%, 99%);
+    --container-color: rgb(1, 1, 27);
+    --card: rgb(12, 12, 44);
+    --card-color: rgb(12, 12, 44);
+    --footer: rgb(0, 0, 19);
+    --testemonial: rgb(12, 12, 44);
+
+    --mb-0-25: 0.25rem;
+    --mb-0-5: 0.5rem;
+    --mb-0-75: 0.75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+  }
+}
+// $body-font: "Poppins", sans-serif;
+// $big-font-size: 2rem;
+// $h1-font-size: 1.5rem;
+// $h2-font-size: 1.25rem;
+// $h3-font-size: 1.125rem;
+// $normal-font-size: 0.938rem;
+// $small-font-size: 0.813rem;
+// $smaller-font-size: 0.75rem;
+
+// $font-medium: 500;
+// $font-semi-bold: 600;
+// //-------------------end fonts-------------------------------//
+
+// //--------------------COLORS---------------------------------
+
+// $hue-color: 250;
+// $first-color: hsl(($hue-color), 69%, 61%);
+// $first-color-second: hsl(($hue-color), 69%, 61%);
+// $first-color-alt: hsl(($hue-color), 57%, 53%);
+// $first-color-lighter: hsl(($hue-color), 92%, 85%);
+// $title-color: hsl(($hue-color), 8%, 15%);
+// $text-color: hsl(($hue-color), 8%, 45%);
+// $text-color-light: hsl(($hue-color), 8%, 65%);
+// $input-color: hsl(($hue-color), 70%, 96%);
+// $body-color: hsl(($hue-color), 60%, 99%);
+// $container-color: #fff;
+// //-------------------END COLOR--------------------------------------
+
+// //-------------------MARGIN BOTTOM----------------------------------
+// $mb-0-25: 0.25rem;
+// $mb-0-5: 0.5rem;
+// $mb-0-75: 0.75rem;
+// $mb-1: 1rem;
+// $mb-1-5: 1.5rem;
+// $mb-2: 2rem;
+// $mb-2-5: 2.5rem;
+// $mb-3: 3rem;
+// //------------------END MARGIN BOTTOM------------------------------

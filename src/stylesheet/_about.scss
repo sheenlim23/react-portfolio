@@ -1,0 +1,66 @@
+.about {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  margin-bottom: 10rem;
+  .about-image {
+    display: grid;
+    place-items: center;
+    padding: 0 2rem 0 4rem;
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+  .about-text {
+    padding: 0 4rem 0 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    h2 {
+      font-size: var(--big-font-size);
+      color: var(--title-color);
+    }
+    small {
+      font-size: var(--small-font-size);
+      color: var(--text-color);
+      margin-bottom: var(--mb-2);
+    }
+    p {
+      font-size: var(--normal-font-size);
+      color: var(--text-color);
+      margin-bottom: var(--mb-1);
+    }
+    .about-details-container {
+      display: grid;
+      grid-template-columns: repeat(3, 33.33%);
+      text-align: center;
+      grid-gap: 0.5rem;
+      margin-bottom: var(--mb-2);
+      .num {
+        font-size: var(--h3-font-size);
+        font-weight: var(--font-medium);
+        color: var(--title-color);
+      }
+      .text {
+        padding: 0 1.5rem;
+        text-align: center;
+        font-size: var(--normal-font-size);
+        color: var(--text-color);
+      }
+    }
+    .about-btn {
+      background-color: var(--first-color);
+      width: Clamp(150px, 40%, 20rem);
+      padding: 0.6rem 1rem;
+      text-align: center;
+      border-radius: 10px;
+      color: white;
+      text-decoration: none;
+      .icon {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}

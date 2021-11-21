@@ -1,0 +1,61 @@
+@import "./extras";
+//------------------REUSABLE CLASSES-------------------------------
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background: var(--container-color);
+}
+.container {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: var(--container-color);
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  margin-top: 9vh;
+  padding: 1rem 0rem;
+}
+li {
+  list-style-type: none;
+}
+section {
+  display: block;
+}
+input,
+textarea {
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: rgb(230, 230, 230);
+  margin-bottom: var(--mb-0-75);
+}
+//------------------SPECIFIC STYLES-----------------------------------
+
+@import "./navbar";
+@import "./hero";
+@import "./about";
+@import "./skills";
+@import "./skills";
+@import "./service";
+@import "./portfolio";
+@import "./offer";
+@import "./testimonials";
+@import "./contact";
+@import "./footer";
+@import "./mediaSmall";
+@import "./mediaMediumSp";
+@import "./mediaLargeTab";
