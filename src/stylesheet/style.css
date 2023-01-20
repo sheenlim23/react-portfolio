@@ -363,6 +363,13 @@ textarea {
   margin-left: 0.5rem;
 }
 
+@media only screen and (max-width: 425px) and (min-width: 321px) {
+  .about .about-image img {
+    height: auto !important;
+    width: 100% !important;
+    padding: 0 2rem;
+  }
+}
 .skills {
   max-width: 1400px;
   margin: 0 auto;
@@ -1103,6 +1110,20 @@ textarea {
   background: var(--pagination-bullet);
 }
 
+@media only screen and (max-width: 430px) {
+  .portfolio .swiper-container .swiper-slide .swiper-text {
+    padding: 0 2rem !important;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  .portfolio .swiper-container .swiper-slide .swiper-image {
+    padding: 0rem !important;
+    margin-bottom: 1rem;
+  }
+  .swiper-wrapper {
+    padding: 0 2rem;
+  }
+}
 .offer-container {
   display: grid;
   place-items: center;

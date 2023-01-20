@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Marquee from "react-fast-marquee";
 const Hero = () => {
     useEffect(() => {
         AOS.init();
@@ -38,6 +39,11 @@ const Hero = () => {
                         <img src="/images/profile.png" alt="" />
                     </div>
                 </div>
+            </div>
+            <div>
+                {/* <Marquee>
+                    <img src='images/marque/react-removebg-preview.png'></img>
+                </Marquee> */}
             </div>
         </section>
     );

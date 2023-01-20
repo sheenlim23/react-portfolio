@@ -65,3 +65,18 @@
 .swiper-pagination-bullet{
   background: var(--pagination-bullet) ;
 }
+
+@media only screen and (max-width: 430px){
+  .portfolio .swiper-container .swiper-slide .swiper-text {
+    padding: 0 2rem!important;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 426px){
+  .portfolio .swiper-container .swiper-slide .swiper-image {
+    padding: 0rem!important;
+    margin-bottom: 1rem;
+  }
+  .swiper-wrapper {
+    padding: 0 2rem;
+  }
+}
