@@ -1,14 +1,17 @@
 import React from 'react';
+import { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Skills = () => {
     return (
         <section>
             <div className="skills" id="skills">
             <div className="title">
-                <h1>Skills</h1>
-                <small>My technical skills</small>
+                <h1 data-aos="fade-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="400">Skills</h1>
+                <small data-aos="fade-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="600">My technical skills</small>
             </div>
             <div className="skills-grid">
-                <div className="front-end">
+                <div className="front-end" data-aos="fade-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="800">
                     <div className="skills-details-header">
                         <div className="icon">
                             
@@ -41,7 +44,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className="back-end">
+                <div className="back-end" data-aos="fade-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="1000">
                     <div className="skills-details-header">
                         <div className="icon">
                             
@@ -74,7 +77,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className="others">
+                <div className="others" data-aos="fade-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="1200">
                     <div className="skills-details-header">
                         <div className="icon">
                             

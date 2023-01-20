@@ -3,7 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Footer = () => {
     return (
-        <section>
+        <section id='footer'>
             <div className="footer">
                 <div className="logo">
                     <h1>WS</h1>

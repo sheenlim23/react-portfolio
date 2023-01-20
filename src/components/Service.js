@@ -1,15 +1,18 @@
 import React, {userState} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Service = () => {
     return (
-        <section>
+        <section data-aos="zoom-in" data-aos-offset="500" data-aos-easing="ease-in" data-aos-duration="500">
             <div className="service-container" id="services">
                 <div className="title">
                     <h1>Services</h1>
                     <small>My services</small>
                 </div>
-                <div className="service-card">
+                <div className="service-card" >
                     <div className="card">
                         <FontAwesomeIcon icon="paint-brush" className="icon"/>
                         <h3>UI/UX Designer</h3>

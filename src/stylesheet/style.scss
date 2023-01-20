@@ -16,8 +16,6 @@ body {
 }
 .container {
   position: relative;
-  max-width: 1400px;
-  margin: 0 auto;
   background-color: var(--container-color);
 }
 .wrapper {
@@ -26,7 +24,7 @@ body {
   height: 100%;
 
   margin-top: 9vh;
-  padding: 1rem 0rem;
+  padding-top: 1rem;
 }
 li {
   list-style-type: none;
