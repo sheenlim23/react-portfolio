@@ -19,18 +19,23 @@ import { useState, useEffect } from "react";
 function App() {
  const localStorageTheme = localStorage.getItem("theme");
   useEffect(() => {
-    if (localStorageTheme == null) {
+    if (localStorageTheme === null) {
       console.log(localStorageTheme)
       localStorage.setItem("theme", "dark");
     } else {
       console.log(localStorageTheme)
     }
-  }, []);
+  });
 
   const [theme, setTheme] = useState(localStorageTheme);
   const [icon, setIcon] = useState("moon");
 
   const handleTheme = () => {
+    if(theme == null){
+      localStorage.setItem("theme", "dark");
+      setTheme("dark");
+      setIcon("sun");
+    }
     if (theme === "light") {
       localStorage.setItem("theme", "dark");
       setTheme("dark");
@@ -47,7 +52,7 @@ function App() {
   return (
     <Router>
       <div>
-        <div className={`container ${theme}`} id="container">
+        <div className={`container ${theme == null ? 'dark': theme}`} id="container">
           <div className="nav-wrapper">
             <nav>
               <h2>WS</h2>
