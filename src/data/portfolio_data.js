@@ -30,7 +30,7 @@ export const PORTFOLIO_DATA = [
     {
         title: 'American Dream Home',
         desc: 'American Dream Home is created with the use of ReactJS/NEXTJS still in progress',
-        link: '',
+        link: 'https://www.dreamhomescorp.com/',
         img: 'images/americandreamhome.png',
         imgAlt: 'Go Rentals web image'
     },

@@ -17,17 +17,16 @@ import "./stylesheet/style.css";
 import { useState, useEffect } from "react";
 
 function App() {
-  let localStorageTheme;
+ const localStorageTheme = localStorage.getItem("theme");
   useEffect(() => {
-    if (localStorageTheme === "undefined") {
-      alert("set");
+    if (localStorageTheme == null) {
+      console.log(localStorageTheme)
       localStorage.setItem("theme", "dark");
     } else {
-      alert("not set");
+      console.log(localStorageTheme)
     }
   }, []);
 
-  localStorageTheme = localStorage.getItem("theme");
   const [theme, setTheme] = useState(localStorageTheme);
   const [icon, setIcon] = useState("moon");
 
